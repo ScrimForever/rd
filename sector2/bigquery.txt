@@ -1,0 +1,2 @@
+I can't explain the difference between partitioning and clustering in Big Query very well, but I understand that both are used to reduce costs and optimize performance.
+partitioning is good to minimize amount of data to scan and clustering is faster to locate by row.

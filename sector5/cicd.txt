@@ -1,0 +1,2 @@
+CICD is automated process to build, test and deploy code correctly.
+Jenkins can help to do this more easy. Given tools to make this process correctly and perfect. 

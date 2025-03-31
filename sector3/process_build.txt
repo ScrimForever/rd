@@ -1,0 +1,19 @@
+To build project, we need follow this document.
+
+
+1 -
+
+Zip project
+zip -r "project_function.zip" .
+
+2 - Deploy to AWS
+
+aws lambda create-function \
+  --function-name "xpto" \
+  --runtime python3.11 \
+  --role arn:aws:iam::ACCOUNT_ID:role/lambda-execute-role \
+  --handler app.lambda_handler \
+  --zip-file fileb://project_function.zip
+
+create an api gateway and configure to access.
+

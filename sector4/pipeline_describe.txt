@@ -1,0 +1,5 @@
+When I worked at Itaú, it was necessary to extract data of individuals who had court-ordered alimony payments to be debited from their checking accounts. 
+We had to receive a batch of TXT files, filter these individuals based on business rules, and we used pandas for that. 
+After this extraction, it was necessary to check which accounts had sufficient balance, moving on to the data transformation process. 
+Finally, the account was debited, and a payment receipt was generated.
+
